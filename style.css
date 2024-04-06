@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background: #000000;
+}
+.background-quan{
+    height: 700px;
+    width: 100%;
+    background-image: url(images/Untitled\ design\ \(2\).png);
+    background-position: -500px;
+    filter: grayscale(8);
+    position: absolute;
+    top: -30px;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: #313131;
+    display: flex;
+    padding-left: 370px;
+    position: fixed;
+    top: 0;
+    z-index: 11111;
+}
+.cover{
+    height: 550px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.navbar div{
+    height: 70px;
+    width: 130px;
+    text-align: center;
+    padding-top: 25px;
+}
+.navbar div a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar div a:hover{
+    color: #929191;
+    transition-duration: 0.8s;
+}
+.front-page-content{
+    height: 450px;
+    width: 700px;
+    position: absolute;
+    top: 160px;
+    right: 50px;
+}
+.front-page-content h1{
+    margin-left: 97px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 750;
+}
+.front-page-content img{
+    height: 70px;
+    position: absolute;
+    top: -6px;
+    left: 340px;
+}
+.front-page-content h3{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.front-page-content p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.front-page-content button{
+    height: 50px;
+    width: 210px;
+    border-radius: 50px;
+    background: #313131;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 260px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.front-page-content button:hover{
+    background: #fff;
+    color: #000000;
+    transition-duration: 1s;
+}
